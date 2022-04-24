@@ -1,6 +1,9 @@
 package com.st.beans;
 
+import java.util.Date;
+
 public class A {
-	public static void main(String[] args) {
+	public Date getSysDate() {
+		return new Date();
 	}
 }
